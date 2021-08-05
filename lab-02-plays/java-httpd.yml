@@ -1,7 +1,7 @@
 ---
 # create new group, appservers, and install java
-- hosts: webservers  # Host or Group of Selections
-  gather_facts: true
+- hosts: webs # Host or Group of Selections
+  gather_facts: false
   become: true
   vars:
     httpd_port: 8080
